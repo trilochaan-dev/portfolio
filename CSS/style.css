@@ -9,6 +9,11 @@ body{
 }
 
 @font-face {
+    font-family: 'lighting';
+    src: url('/Fonts/lighting_lettering/LightingLettering_PERSONAL_USE_ONLY.otf') format('truetype');   
+}
+
+@font-face {
     font-family: 'awseome';
     src: url('/portfolio/Fonts/awesome/Awesome.ttf') format('truetype');   
 }
@@ -60,14 +65,3 @@ body{
     transition: color 1s ease;
 }
 
-.line{
-    position: fixed;
-    top: 50px;
-    left: 10px;
-    width: 55%;
-    height: 1px;
-    background: rgb(119, 119, 119);
-    z-index: 1500;
-    align-items: center;
-    justify-content: center;
-}
