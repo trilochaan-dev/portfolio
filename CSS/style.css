@@ -1,0 +1,73 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'awseome';
+    src: url('/project-manager/Fonts/awesome/Awesome.ttf') format('truetype');   
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('/project-manager/Fonts/neo-cyberpunk-demo/NeoCyberpunkDemo-Regular.otf') format('truetype');
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 75px;
+    background-color: transparent;
+    font-family:'roboto', sans-serif;
+    font-size: 45px;
+    font-weight:400;
+    display: flex;
+    justify-content: left;
+    color: white;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+    margin: 20px;
+    padding: 0px;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+.navbar a:hover{
+    color: rgb(255, 118, 118); 
+    transition: color 1s ease;
+}
+
+.line{
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    width: 55%;
+    height: 1px;
+    background: rgb(119, 119, 119);
+    z-index: 1500;
+    align-items: center;
+    justify-content: center;
+}
