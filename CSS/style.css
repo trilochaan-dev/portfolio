@@ -10,12 +10,12 @@ body{
 
 @font-face {
     font-family: 'awseome';
-    src: url('/project-manager/Fonts/awesome/Awesome.ttf') format('truetype');   
+    src: url('/portfolio/Fonts/awesome/Awesome.ttf') format('truetype');   
 }
 
 @font-face {
     font-family: 'roboto';
-    src: url('/project-manager/Fonts/neo-cyberpunk-demo/NeoCyberpunkDemo-Regular.otf') format('truetype');
+    src: url('/portfolio/Fonts/neo-cyberpunk-demo/NeoCyberpunkDemo-Regular.otf') format('truetype');
 }
 .navbar{
     position: fixed;
