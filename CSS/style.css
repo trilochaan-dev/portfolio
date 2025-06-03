@@ -8,11 +8,12 @@
     --black-bright: #232323;
     --head-dull: #a2a1a1;
     --head-bright: #dddcdc;
-    --img-bg:url('/image/bg-dark.webp');
+    --img-bg:url('../image/bg-dark.webp');
     --head-card-color: #0c0c0c;
-    --git-icon: url('/image/contact-imgs/github-light.png');
-    --linkedin-icon: url('/image/contact-imgs/linkedin-light.png');
-    --ig-icon: url('/image/contact-imgs/ig-light.png');}
+    --git-icon: url('../image/contact-imgs/github-light.png');
+    --linkedin-icon: url('../image/contact-imgs/linkedin-light.png');
+    --ig-icon: url('../image/contact-imgs/ig-light.png');
+}
 
 .dark-mode{
     --black: #FAFAFA;
@@ -21,47 +22,47 @@
     --black-bright: #dddcdc;
     --head-dull: #5e5e5e;
     --head-bright: #1e1e1e;
-    --img-bg:url('/image/bg-white.webp');
+    --img-bg:url('../image/bg-white.webp');
     --head-card-color: #eaeaea;
-    --git-icon: url('/image/contact-imgs/github.png');
-    --linkedin-icon: url('/image/contact-imgs/linkedin.png');
-    --ig-icon: url('/image/contact-imgs/ig.png');}
-
-body{
-    background-color: var(--black);
-    background-image: var(--img-bg) ;
-    margin: 0px;
-    padding: 0px;
-    transition: all 0.5s ease;
-    position: relative;}
+    --git-icon: url('../image/contact-imgs/github.png');
+    --linkedin-icon: url('../image/contact-imgs/linkedin.png');
+    --ig-icon: url('../image/contact-imgs/ig.png');
+}
 
 @font-face {
     font-family: 'lighting';
-    src: url('/Fonts/lighting_lettering/LightingLettering_PERSONAL_USE_ONLY.otf') format('truetype');   }
+    src: url('../Fonts/lighting_lettering/LightingLettering_PERSONAL_USE_ONLY.otf') format('truetype');
+}
 
 @font-face {
     font-family: 'awseome';
-    src: url('/Fonts/awesome/Awesome.otf') format('truetype');   }
+    src: url('../Fonts/awesome/Awesome.otf') format('truetype');
+}
 
 @font-face {
     font-family: 'roboto';
-    src: url('/Fonts/neo-cyberpunk-demo/NeoCyberpunkDemo-Regular.otf') format('truetype');}
+    src: url('../Fonts/neo-cyberpunk-demo/NeoCyberpunkDemo-Regular.otf') format('truetype');
+}
 
 @font-face {
     font-family: 'mabroc';
-    src: url('/Fonts/Mabroc.otf') format('truetype');}
+    src: url('../Fonts/Mabroc.otf') format('truetype');
+}
 
 @font-face {
     font-family: 'retrolight';
-    src: url('/Fonts/Retrolight.otf') format('truetype');}
+    src: url('../Fonts/Retrolight.otf') format('truetype');
+}
 
 @font-face {
     font-family: 'coolvetica';
-    src: url('/Fonts/Coolvetica\ Hv\ Comp.otf') format('truetype');   }
+    src: url('../Fonts/Coolvetica Hv Comp.otf') format('truetype');
+}
 
 @font-face {
     font-family: 'montserrat';
-    src: url('/Fonts/Montserrat-VariableFont_wght.ttf') format('truetype');   }
+    src: url('../Fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
     
 .navbar{
     position: fixed;
